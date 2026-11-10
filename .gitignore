@@ -1,0 +1,24 @@
+# Claves y credenciales
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+*.pem
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Datos generados localmente
+chroma_db/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+users/
+data/
